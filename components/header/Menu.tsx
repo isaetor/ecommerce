@@ -91,9 +91,7 @@ const Menu = () => {
               className='btn btn-ghost rounded-btn'
               type='button'
               onClick={() => signIn()}
-            >
-              ورود  |  ثبت نام
-            </button>
+            >ورود</button>
           </li>
         )}
       </ul>
