@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <header className='bg-base-300'>
       <nav className='container'>
-        <div className='navbar justify-between '>
-          <div className='flex items-center gap-4'>
+        <div className='navbar justify-between p-0'>
+          <div className='flex items-center gap-1'>
             <label htmlFor='my-drawer' className='btn btn-square btn-ghost'>
               <AlignJustify />
             </label>
             <Link
               href='/'
-              className='text-sm font-semibold sm:ml-4 sm:text-lg'
+              className='text-sm font-semibold sm:text-lg'
             >
               فروشگاه اینترنتی
             </Link>

@@ -59,7 +59,7 @@ const Menu = () => {
             <div className='dropdown dropdown-end dropdown-bottom'>
               <label tabIndex={0} className='btn btn-ghost rounded-btn text-sm md:text-base'>
                 {session.user.name}
-                <ChevronDown />
+                <ChevronDown size={18} />
               </label>
               <ul
                 tabIndex={0}
