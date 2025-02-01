@@ -155,7 +155,7 @@ const OrderDetails = ({ orderId }: IOrderDetails) => {
                   </div>
                 </li>
                 
-                {(session?.user.isAdmin && isDelivered) && (
+                {(session?.user.isAdmin && !isDelivered) && (
                   <li>
                     <button
                       className='btn my-2 w-full'
