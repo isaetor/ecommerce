@@ -57,7 +57,7 @@ const Menu = () => {
         {session && session.user ? (
           <li>
             <div className='dropdown dropdown-end dropdown-bottom'>
-              <label tabIndex={0} className='btn btn-ghost rounded-btn'>
+              <label tabIndex={0} className='btn btn-ghost rounded-btn text-sm md:text-base'>
                 {session.user.name}
                 <ChevronDown />
               </label>

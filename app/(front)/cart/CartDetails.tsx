@@ -65,7 +65,7 @@ const CartDetails = () => {
                         <span className='px-2'>{item.name}</span>
                       </td>
                       <td>
-                        <div>
+                        <div className='flex items-center gap-2'>
                           <button
                             className='btn'
                             type='button'
@@ -73,7 +73,7 @@ const CartDetails = () => {
                           >
                             -
                           </button>
-                          <span className='px-2'>{item.qty}</span>
+                          <span>{item.qty}</span>
                           <button
                             className='btn'
                             type='button'

@@ -104,7 +104,7 @@ export default async function SearchPage({
   });
   return (
     <div className='grid md:grid-cols-12 md:gap-5 py-8'>
-      <div className='md:col-span-3 space-y-4'>
+      <div className='md:col-span-3 space-y-4 mb-4'>
         <div className='bg-base-300 p-4 rounded-2xl text-lg font-bold mb-4 flex items-center justify-between'>
           فیلترها
           {(q !== 'all' && q !== '') ||
@@ -180,7 +180,7 @@ export default async function SearchPage({
             ))}
           </div>
 
-          <p>{countProducts} کالا</p>
+          <p className='flex-shrink-0'>{countProducts} کالا</p>
 
         </div>
 

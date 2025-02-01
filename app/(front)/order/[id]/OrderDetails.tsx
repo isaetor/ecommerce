@@ -57,8 +57,8 @@ const OrderDetails = ({ orderId }: IOrderDetails) => {
   return (
     <div>
       <h1 className='py-4 text-lg'>جزئیات سفارش {orderId}</h1>
-      <div className=' grid md:grid-cols-6 md:gap-5'>
-        <div className='md:col-span-4'>
+      <div className=' grid md:grid-cols-6 md:gap-5 mb-4'>
+        <div className='md:col-span-4 mb-4'>
           <div className='card bg-base-300'>
             <div className='card-body'>
               <h2 className='card-title'>آدرس حمل و نقل</h2>

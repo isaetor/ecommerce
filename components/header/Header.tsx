@@ -15,7 +15,7 @@ const Header = () => {
             </label>
             <Link
               href='/'
-              className='text-base font-semibold sm:ml-4 sm:text-lg'
+              className='text-sm font-semibold sm:ml-4 sm:text-lg'
             >
               فروشگاه اینترنتی
             </Link>
