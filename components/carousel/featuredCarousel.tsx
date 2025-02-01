@@ -9,7 +9,7 @@ import { SlideNextButton, SlidePrevButton } from "./SlideNextButton";
 const FeaturedCarousel = ({featuredProducts} : any) => {
   return (
     <Swiper className="group">
-      <div className="flex items-center gap-2 absolute bottom-4 right-4 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+      <div className="flex items-center gap-2 absolute bottom-4 right-4 z-10 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500">
           <SlidePrevButton />
           <SlideNextButton />
         </div>
@@ -20,7 +20,7 @@ const FeaturedCarousel = ({featuredProducts} : any) => {
 
               <Image
                 src={product.banner!}
-                className='h-[200px] w-full object-cover lg:h-[400px]'
+                className='h-[150px] w-full object-cover lg:h-[400px]'
                 width={1500}
                 height={300}
                 alt={product.name}
