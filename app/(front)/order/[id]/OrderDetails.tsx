@@ -154,8 +154,8 @@ const OrderDetails = ({ orderId }: IOrderDetails) => {
                     <div>{new Intl.NumberFormat("fa").format(Number(totalPrice))} <span>ريال</span></div>
                   </div>
                 </li>
-
-                {session?.user.isAdmin && (
+                
+                {(session?.user.isAdmin && isDelivered) && (
                   <li>
                     <button
                       className='btn my-2 w-full'
